@@ -17,10 +17,5 @@ pipeline {
                 echo 'Welcome'
             }
         }
-		xstage('test') {
-            steps {
-                echo 'No Thanks'
-            }
-        }
     }
 }
